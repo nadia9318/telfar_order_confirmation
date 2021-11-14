@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="flexboxgrid.css">
+    
+    <title>Telfar Order Confirmed</title>
+
+    <style>
+
+        * {
+            margin: 0;
+            padding: 0 5px;
+            font-family: Helvetica, sans-serif;
+            color: #999999;
+            line-height: 1.5;
+        }
+
+        body {
+            margin: 0 auto;
+            max-width: 640px;
+        }
+
+        container {
+            margin: 0 60px;
+        }
+
+        h1 {
+            color: #444444;
+        }
+
+        hr {
+            border: .5px solid #eee;
+        }
+
+        .row end-xs {
+            margin: 30px;
+        }
+
+/* Header */
+
+        #header img {
+            max-width: 150px;
+        }
+
+/* Thank */
+
+        #thank h1 {
+            font-weight: 400;
+            margin: 10px auto;
+        }
+
+        #thank p {
+            margin-bottom: 20px;
+        }
+/* View */
+        
+        button {
+            background-color: #000;
+            border: none;
+            color: #fff;
+            padding: 15px 32px;
+            border-radius: 4px;
+        }
+
+        #view span {
+            font-size: 14px;
+        }
+
+        #view a {
+            text-decoration: none;
+            color: #000;
+        }
+
+/* Order*/ 
+
+        #order img {
+            max-width: 70px;
+            height: auto;
+            
+        }
+
+        #order span.title {
+            color: #5b5b5b;
+            font-size: 20px;
+            font-weight: 500;
+            
+        }
+
+        #order span.price {
+            color: #5b5b5b;
+            font-weight: 700;
+            font-size: 16px;
+            
+        }
+
+        #order span.total {
+            color: #5b5b5b;
+            font-weight: 700;
+            font-size: 25px;
+        }
+
+        #order .col-xs-2 {
+          
+        }
+
+        #order .col-xs-2{
+            margin-bottom: 45px;
+        }
+
+        #order .col-xs-6 {
+            margin-bottom: 5px;
+        }
+
+        #order .order-smbag {
+            margin-top: 20px;
+            margin-right: 20px;
+        }
+
+        #order .total-title {
+            margin-top: 40px;
+        }
+
+        #order .subtotal-title{
+            margin: 40px 0;
+        }
+
+/* Customer Info */
+
+        #customer-info {
+            margin: 0 20px;
+        }
+
+        #customer-info h1 {
+            font-weight: 500;
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+
+        #customer-info span {
+            font-size: 18px;
+            color: #5b5b5b;
+            margin-bottom: 20px;
+        }
+
+        #customer-info .ship-pay{
+            margin: 20px 0;
+        }
+
+        #customer-info .ship-bill {
+            margin-top: 20px;
+        }
+/* Footer*/
+
+        #footer {
+            text-align: center;
+        }
+
+        #footer a {
+            color:#000;
+        }
+
+
+    </style>
+</head>
+<body>
+    <!--Image-->
+<container id="header">
+    <div class="row start-xs">
+        <div class="col-xs-6">
+                <img src="https://ci3.googleusercontent.com/proxy/gn2dVUlUsoaPJYF822Al4sm25LqAvOtDOrUGYtlvDuY7Xo0E6JLbNVNBE8citAIFpGaCV0KKRd6ZSA3e8n-k_c6iWFsAmrm-e9tlpGJyi0274gGUhd5sTuNFyQvEvwf1SOpnCeYeBV3Y=s0-d-e1-ft#https://cdn.shopify.com/s/files/1/0880/7204/email_settings/TELFAR_Logo_Stamp.png?10269"
+                alt="telfar-logo">
+          </div>
+        </div>
+<!--Order Number-->
+    
+        <div class="row end-xs">
+            <div class="col-xs-6">
+                <p>ORDER #18571</p>
+            </div>
+            
+        </div>
+    </container>
+
+<!--Thank you-->
+    <container id="thank">
+            <h1>Thank you for your purchase!</h1>
+            <p>Hi Nadia, we're getting your order ready to be shipped. We will notify you when it has been sent.</p>
+    </container>
+
+<!--View order-->
+    <container id="view">
+            <p><button>View your order</button><span> or </span><a href="#">Visit our store</a></p>
+    </container>
+
+    <hr>
+
+<!--Order-->
+    <container id="order">
+        <div class="row start-xs">
+            <div class="col-xs-12">   
+                <p><span class="title">Order Summary</span></p>
+            </div>
+        </div>
+            
+        <div class="order-smbag">
+            <div class="row start-xs">
+                <div class="col-xs-10">
+                    <p><span class="price">Small Silver Shopping Bag × 1</span></p>
+                </div>
+                <div class="col-xs-2">
+                    <p><span class="price">$150.00</span></p>
+                </div>
+            </div>
+           
+        </div>
+          
+        
+
+        <hr>
+
+    <div class="subtotal-title">
+        <div class="row end-xs">
+            <div class="col-xs-6">
+                <p>Subtotal</p>
+            </div>
+            <div class="col-xs-6">
+                <p><span class="price">$150.00</span></p>
+            </div>
+        </div>
+
+        <div class="row end-xs">
+            <div class="col-xs-6">
+                <p>Shipping</p>
+            </div>
+            <div class="col-xs-6">
+                <p><span class="price">$0.00</span></p>
+            </div>
+        </div>
+
+        <div class="row end-xs">
+            <div class="col-xs-6">
+                <p>Taxes</p>
+            </div>
+            <div class="col-xs-6">
+                <p><span class="price">$0.00</span></p>
+            </div>
+        </div>
+    </div>
+        
+
+        <hr>
+
+    <div class="total-title">
+        <div class="row end-xs">
+            <div class="col-xs-6">
+                <p>Total</p>
+            </div>
+            <div class="col-xs-6">
+                <p><span class="total">$150.00 USD</span></p>
+            </div>
+        </div>
+    </div>
+        
+    </container>
+
+    <hr>
+
+<!--Customer Info-->
+    <container id="customer-info">
+        <div class="row start-xs">
+            <div class="col-xs-6">
+                <h1>Customer Information</h1>
+            </div>
+        </div>
+        
+        <div class="ship-bill">
+            <div class="row start-xs">
+                <div class="col-xs-6">
+                    <p><span>Shipping address</span></p>
+                        <div class="ship-bill">
+                            <p>Nadia Ford</p>
+                            <p>123 Main Street</p>
+                            <p>Frederick, MD 21703</p>
+                            <p>United States</p>
+                        </div>
+                </div>
+                <div class="col-xs-6">
+                    <p><span>Billing address</span></p>
+                        <div class="ship-bill">
+                            <p>Nadia Ford</p>
+                    <p>123 Main Street</p>
+                    <p>Frederick, MD 21703</p>
+                    <p>United States</p>
+                        </div>    
+                </div>
+        </div>
+        
+            
+            <div class="ship-pay">
+                <div class="row start-xs">
+                    <div class="col-xs-6">
+                        <p><span>Shipping Method</span></p>
+                            <div class="ship-bill">
+                                <p>Free Domestic Shipping*</p> 
+                            </div> 
+                    </div>
+                    <div class="col-xs-6">
+                        <p><span>Payment Method</span></p>
+                        <div class="ship-bill">
+                            <p><img src="https://ci4.googleusercontent.com/proxy/_MJZi1tbe8Z2UFiy7IZQ0VcFfHmj_0RcT43e_-IWbiY5f_1t8Hwg6USpvUmHLMw4AHcMywCJ4a57-oZJYxT81LLpxfLLYQit2xnbFa2FHpI-Jmrbf4tyQ_9KoAbE5ba8sYy8zNwF_JNDoowGQmYhwjgl0wWLLFgG7FQCslq74ZvhoXz2B7r5rSTWkQ=s0-d-e1-ft#https://cdn.shopify.com/s/assets/payment_icons/visa-319d545c6fd255c9aad5eeaad21fd6f7f7b4fdbdb1a35ce83b89cca12a187f00.svg" alt="visa-card"> ending with 1234 —<span>$150.00</span> </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+                
+            </div>
+        </div>
+    </container>
+
+    <hr>
+
+    <!--Footer-->
+        <container id="footer">
+            <p>If you have any questions, reply to this email or contact us at  <a href="mailto:shop@telfar.net">shop@telfar.net</a></p>
+        </container>
+</body>
+</html>
+
